@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__list {
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 400;
+
+
+}
+
+.header__link {
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+}
+
+.header__allocation {
+    font-size: 18px;
+    line-height: 22.63px;
+    font-weight: 600;
+}
+
+.header__list_item {
+    list-style-type: none;
+}
+
+.text__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+
+}
+
+.transparent {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 16.41px;
+
+}
+
+.transparent_title {
+    text-transform: uppercase;
+}
+
+.develop {
+    line-height: 28px;
+}
+
+.title__develop {
+    font-size: 16px;
+}
+
+.large__section {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.short__section {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer__title {
+    font-size: 16px;
+    line-height: 28px;
+
+}
