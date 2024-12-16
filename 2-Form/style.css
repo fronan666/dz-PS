@@ -1,0 +1,39 @@
+
+main {
+    background-color: #FFFEFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    color:#333333;
+    font-size: 36px;
+}
+
+label {
+    color:#333333;
+    font-size: 16px;
+}
+
+p {
+    color: #666666;
+    font-size: 18px;
+}
+
+input {
+    color:#999999;
+    font-size: 14px;
+}
+
+button {
+    color:#FFFFFF ;
+    background-color:#089FE0;
+    font-size: 18px;
+}
+.conditions {
+    color: #666666;
+    font-size: 14px;
+}
