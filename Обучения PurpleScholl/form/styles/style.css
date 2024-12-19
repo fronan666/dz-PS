@@ -1,0 +1,29 @@
+main {
+    background-color: #1e1f29;
+}
+div {
+    background-color: #2e2d3d;
+}
+select, input, textarea{
+    background-color: #2e2d3d;
+    color:#FAFAFA;
+}
+input:invalid {
+    background-color: rgb(215, 23, 23);
+}
+input:valid {
+    background-color: green;
+}
+button {
+    background-color:#6C38CC;
+     color: #FAFAFA;
+    
+}
+label {
+    color:#AFB2BF;
+    ;
+}
+
+h1 {
+    color:#FAFAFA;
+}
