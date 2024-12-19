@@ -4,56 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Мой документ</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <header class="header">
       <nav>
-        <ul>
-          <li><a href="">Продукт</a></li>
-          <li><a href="">Решения</a></li>
-          <li><a href="">Ресурсы</a></li>
-          <li><a href="">Предприятие</a></li>
-          <li><a href="">Тарифы</a></li>
+        <ul class="header__list">
+          <li class="header__list_item"><a class="header__link" href="">Продукт</a></li>
+          <li class="header__list_item"><a class="header__link" href="">Решения</a></li>
+          <li class="header__list_item"><a class="header__link" href="">Ресурсы</a></li>
+          <li class="header__list_item"><a class="header__link" href="">Предприятие</a></li>
+          <li class="header__list_item"><a class="header__link" href="">Тарифы</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Место для командной работы</h1>
-        <p>
+      <section class="comand__work">
+        <h1 class="section__title">Место для командной работы</h1>
+        <img src="images/1.png" alt="">
+        <p class="hero__text">
           Интерактивная онлайн-доска для совместной работы команд — в любое
           время, в любом месте.
         </p>
-        <div></div>
+        <div>
         <form action="/register" method="get"></form>
+        <input class="section__input" type="email" id="email" name="email">
+        <button class="button">Начать бесплатно</button>
+        <p class="paragraph__text">Всегда бесплатно — кредитная карта не нужна</p>
       </section>
-      <section>
-        <h2>Работайте вместе, где бы вы ни находились</h2>
-        <p>
+        </div>
+      </section>
+      <section class="section2">
+        <h2 class="section__title">Работайте вместе, где бы вы ни находились</h2>
+        <img src="images/2.png" alt="">
+        <p class="text__transparent">
           Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда
           может общаться, сотрудничать и совместно заниматься творчеством в
           одном пространстве, из любой точки мира.
         </p>
-        <a href="">Узнать больше</a>
+        <a class="link" href="">Узнать больше</a>
         <div></div>
       </section>
-      <section>
-        <h3>Закройте лишние вкладки — всё уже здесь</h3>
-        <p>
+      <section class="section3">
+        <h3 class="section__title">Закройте лишние вкладки — всё уже здесь</h3>
+        <img src="images/3.png" alt="">
+        <p class="text__transparent">
           Редактируете ли вы документы в Google Docs, работаете над задачами в
           Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с
           уже известными и полюбившимися вам инструментами.
         </p>
-        <ul>
-          <a href="">Узнать больше</a>
-        </ul>
+            <a class="link" href="">Узнать больше</a>
         <div></div>
       </section>
     </main>
     <section>
-      <table>
-      <caption>Таблица расходов и доходов</caption>
+      <h2 class="section__title">Создан для всех типов команд</h2>
+      <ul>
+        <li>Создавайте вайрфреймы</li>
+        <li>Подключайте заказчиков к процессу дизайна</li>
+        <li>Проводите вовлекающие дизайн-воркшопы</li>
+      </ul>
+      <!-- <tabe> -->
+      <!-- <caption>Таблица расходов и доходов</caption>
         <thead>
           <tr>
             <th>Год</th>
@@ -95,9 +107,9 @@
                 <td>2000$</td>
               </tr>
             </tfoot>
-          </table>
+          </table> -->
     </section>
-    <footer>
+ <footer class="footer">
         <div> &#169; 2023 Miro</div>
         <div>
             <a href="#">Условия пользования</a>
