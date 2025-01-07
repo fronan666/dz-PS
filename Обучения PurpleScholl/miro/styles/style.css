@@ -1,12 +1,19 @@
 body {
     margin: 0;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 h2 {
     margin: 0 0 19px 0;
 }
+
 nav {
     padding: 33px 50px;
 }
+
 .header {
 margin-bottom: 62px;
 }
@@ -57,7 +64,16 @@ line-height: 24px;
     background-color: #4262FF;
     border:1px solid #4262FF;
     border-radius: 32px;
-    padding: 10px 20px;
+    padding: 10px 20px; 
+    
+}
+button:hover {
+    background-color: #050038;
+    border-radius: 50%;
+    transition:border-radius 2s 2s ;
+}
+button:active {
+    background-color: #101e64;
 }
 .section__input {
     height: 38px;
@@ -74,4 +90,48 @@ line-height: 24px;
 .footer a {
     color: #FFFF;
     text-decoration: none;
+}
+.hero {
+    font-size: 16px;
+}
+h1 {
+    font-size: 4em;
+}
+.hero__text {
+    font-size: 2em;
+}
+.experement div {
+    width: 200px;
+    height: 200px;
+    background-color: #050038;
+    margin: 10px;
+    font-size: 24px;
+    color: #FFFF ;
+    animation: my-move 2s ease-in-out forwards;
+    animation-iteration-count: 5;
+    transition-timing-function: cubic-bezier();
+}
+.experement:hover div  {
+animation-play-state: paused;
+}
+@keyframes my-move {
+    25% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(100%) translateY(-100%);
+    }
+    75% {
+        transform: translateX(0%) translateY(-100%)
+    }
+    100% {
+        transform: translateX(0%) translateY(0%)
+    }
+    
+}
+@media (min-width: 360px) {
+    h1 {
+        color: red;
+    }
+    
 }

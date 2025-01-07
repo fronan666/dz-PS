@@ -1,22 +1,74 @@
 main {
     background-color: #1e1f29;
+    border-radius: 10px;
+    padding: 48px;
+    max-width: 500px;
+    margin:0 auto;
 }
-div {
-    background-color: #2e2d3d;
+*{
+    box-sizing: border-box;
 }
+
 select, input, textarea{
-    background-color: #2e2d3d;
+    background:#2E2D3D;
     color:#FAFAFA;
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 120%;
+    padding: 27px 48px 12px;
+    border:none;
+    border-radius: 10px;
+    width: 100%;
+    
 }
+
+select::placeholder {
+    background-color: #474751;
+} 
+input::placeholder{
+    background-color: #474751; ;
+}
+textarea::placeholder{ 
+    background-color: #474751; 
+}
+
 button {
     background-color:#6C38CC;
-     color: #FAFAFA;
+    color: #FAFAFA;
+    border: none;
+    border-radius: 10px;
+    padding: 12px,24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
     
 }
 label {
     color:#AFB2BF;
-    ;
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
 }
 h1 {
-    color:#FAFAFA;
+color:#FAFAFA;
+font-size:36px;
+font-weight: 700;
+font-family: sans-serif; 
+text-align: center; 
+margin: 0 0 32px 0;
+}
+.field {
+    margin-bottom: 16px;
+    border-radius: 10px;
+    position: relative;
+}
+.field img {
+    position: absolute;
+    top: 17px ;
+    left: 16px;
+
 }
