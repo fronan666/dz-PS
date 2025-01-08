@@ -9,27 +9,24 @@
   <body>
     <main>
       <h1>Регистрация</h1>
-      <div class="">
+      <div class="acount">
         <p>Уже есть аккаунт?</p>
         <a href="#">Войти</a>
       </div>
-      <form action="#">
-        <div>
+      <form action="#" class="form">
+        <div class="company">
           <label for="company">Моя компания</label>
           <input type="text" name="company" id="company" required />
         </div>
-        <div>
-          <div>
+          <div class="namesurname">
             <label for="name"></label>
             <input
               type="text"
               id="name"
               name="name"
-              placeholder="Имя"
               required
+              placeholder ="Имя"
             />
-          </div>
-          <div>
             <label for="surname"></label>
             <input
               type="text"
@@ -38,7 +35,6 @@
               placeholder="Фамилия"
               required
             />
-          </div>
         </div>
         <div>
           <label for="email"></label>
@@ -50,10 +46,13 @@
             required
           />
         </div>
-        <button>Зарегистрироваться</button>
-        <div>
+        <button>Зарегистрироваться
+          <img src="images/Arrow 1.svg" alt="стрелка">
+        </button>
+      </div>
+        <div class="conditions">
+          <input type="checkbox" name="conditions" id="conditions" required />
           <label for="conditions">Я прочитал и принимаю</label>
-          <input type="checkbox" name="conditions" id="conditions" required class="conditions" />
           <a href="#">Условия использования</a>
         </div>
       </form>
