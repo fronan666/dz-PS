@@ -46,7 +46,7 @@ p {
 }
 
 input {
-    color: #999999;
+    color:#666666;
     font-size: 16px;
     border: 1px solid #F5F5F5;
     width: 100%;
@@ -54,7 +54,6 @@ input {
     border-radius: 5px;
     padding: 9px 0 9px 11px;
     background-color: #F5F5F5;
-    font-style: italic;
 }
 
 button {
@@ -72,6 +71,11 @@ button {
     line-height: 24.51%;
 
 
+}
+input::placeholder {
+    font-size: 16px;
+    color: #999;
+    font-style: italic;
 }
 
 img {
@@ -169,6 +173,7 @@ input[type="checkbox"]:checked+label::before {
 .conditions label {
     font-size: 14px;
     margin: 0;
+    color:#666666;
 }
 
 .conditions a {
