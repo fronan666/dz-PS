@@ -3,24 +3,59 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
     margin: 0;
-    z-index: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
     color: white;
 }
-.header {
- margin: 71px 0 69px 0 ;
+
+a span {
+    background-color: #4B5563;
+    padding: 6px 12px;
+    border-radius: 3px;
+    box-shadow: 0px 15px 30px 0px #00000026;
+
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header__allocation {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    margin: 71px 180px 69px 180px;
+
+}
+
+
 .header__list {
     font-size: 16px;
     line-height: 18.75px;
     font-weight: 400;
-    margin: 0;
+    margin: 0 0 0 77px;
     padding: 0;
+    display: flex;
+    gap: 52px;
 }
-.header__search{
+
+.header__search {
     font-size: 16px;
     line-height: 18.75px;
     background-color: rgba(31, 41, 55, 0.6);
@@ -41,8 +76,18 @@ a {
     font-weight: 600;
 }
 
+
 .header__list_item {
     list-style-type: none;
+}
+
+.header__form {
+    position: relative;
+}
+
+.header__form img {
+    position: absolute;
+    padding: 14px 0 14px 18px;
 }
 
 .text__title {
@@ -57,23 +102,52 @@ a {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 16.41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin: 0 0 14px 0;
 
 }
 
 .transparent_title {
     text-transform: uppercase;
+    margin: 0;
 }
 
 .develop {
     line-height: 28px;
+    display: flex;
+    justify-content: center;
+    max-width: 214px;
+    gap: 16px;
     margin: 0 0 28px 0;
+}
+
+.develop__text {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
 }
 
 .title__develop {
     font-size: 16px;
+    margin: 0;
 }
+
+.job__title {
+    margin: 0;
+}
+
 .image__main {
-    margin: 0 0 69px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 69px;
+}
+
+.section_text {
+    max-width: 708px;
+    margin: 0 auto;
 }
 
 .large__section {
@@ -88,15 +162,18 @@ a {
     margin: 0 0 50px 0;
 
 }
+
 .color__marketing {
-margin:0 0 87px 0;
+    margin: 0 0 87px 0;
 }
+
 .color__marketing a {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .footer__title {
     font-size: 16px;
     line-height: 28px;
     margin: 0 0 77px 0;
+    gap: 4px;
 }
