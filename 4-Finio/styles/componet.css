@@ -1,27 +1,17 @@
 .section__h2 {
-font-size: 48px;
-font-weight: 600;
-line-height: 57.6px;
-margin: 0 0 24px 0;
-padding: 0;
-color:var(--color-h2) ;
-}
-.paragrah__17 {
-font-size: 17px;
-font-weight: 500;
-line-height: 23.8px;
-color:var(--color-transparent);
-padding: 0;
-margin: 0 0 40px 0;
-}
-@media (max-width:1100px){
-    .section__h2 {
-        text-align: center;
-    }
-    .paragrah__17 {
-        text-align: center ;
-    }
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    margin: 0 0 24px 0;
+    padding: 0;
+    color: var(--color-h2);
 }
 
-@media (max-width:900px) {
+.paragrah__17 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    color: var(--color-transparent);
+    padding: 0;
+    margin: 0 0 40px 0;
 }

@@ -1,26 +1,31 @@
 .section__tariffs {
-  max-width: 1108px;
-  margin: 0 auto;
-  padding: 0 24px;
+    max-width: 1108px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
+
 .tariffs__header {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .tariffs__card {
-display: grid;
-gap:24px; 
-grid-template-columns: repeat(3 , 369px);
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 369px);
 }
+
 .card {
-padding: 48px 40px;
-box-shadow: var(--shadow);
-border-radius: var(--radius-8);
+    padding: 48px 40px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-8);
 }
+
 .card__bage-none {
     padding-top: 93px;
 }
+
 .card__bage {
     padding: 4px 16px;
     margin: 0 0 18px 0;
@@ -33,32 +38,35 @@ border-radius: var(--radius-8);
     justify-self: start;
 
 
-    
+
 }
+
 .card__h3 {
-font-size: 32px;
-font-weight: 800;
-line-height: 38.4px;
-color: var(--color-h2);
-margin: 0 0 16px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    color: var(--color-h2);
+    margin: 0 0 16px;
 }
 
 .card__item {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: repeat(auto-fill,minmax(70px, 168px));
+    grid-template-columns: repeat(auto-fill, minmax(70px, 168px));
     padding: 8px 0;
     border-bottom: 1px solid #4E5D7C14;
-    color: var( --color-text);
+    color: var(--color-text);
     font-size: 17px;
     font-weight: 500;
     line-height: 20.4px;
     align-items: center;
     justify-content: start;
 }
+
 .item__money {
-padding: 6px 12px;
+    padding: 6px 12px;
 }
+
 .item__money-bg {
     background-color: var(--color-bg-money);
     border-radius: var(--radius-8);
@@ -67,12 +75,14 @@ padding: 6px 12px;
     line-height: 20.4px;
     color: var(--color-white);
 }
+
 .card__item-border-none {
     border: none;
 }
+
 .card__button {
     width: 100%;
-    padding:12px 63px ;
+    padding: 12px 63px;
     align-items: center;
     border: none;
     font-size: 17px;
@@ -83,60 +93,72 @@ padding: 6px 12px;
     color: var(--color-white);
     margin: 40px 0 0;
 }
+
 .card__blue {
     background-color: var(--color-bg-blue);
 }
+
 .card__blue-item {
-    border-bottom: 1px solid  #FFFFFF29;
+    border-bottom: 1px solid #FFFFFF29;
     ;
-    color: var( --color-white);
+    color: var(--color-white);
 }
+
 .card__blue-paragrah {
     margin: 0 0 16px 0;
-    color:#FFFFFF99;
+    color: #FFFFFF99;
 }
+
 .card__blue-button {
     background-color: var(--color-white);
     color: var(--color-bg-blue);
 }
+
 .card__blue-h3 {
     color: var(--color-white);
+}
+
+@media (max-width:900px) {
+    .tariffs__card {
+        grid-auto-flow: row;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card__bage-none {
+        padding-top: 48px;
+    }
+
 }
 
 @media (max-width:640px) {
     .tariffs__card {
         grid-auto-flow: row;
-        grid-template-columns: repeat(1 ,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
+
     .card__bage-none {
         padding-top: 48px;
     }
 }
+
 @media (max-width:420px) {
     .tariffs__header {
         font-size: 36px;
     }
+
     .card {
         padding: 48px 24px;
     }
-    .card__button  {
+
+    .card__button {
         font-size: 16px;
         padding: 12px 59px;
     }
+
     .card__item {
         font-size: 15px;
     }
 
 
-
-}
-@media (max-width:900px) {
-    .tariffs__card {
-        grid-auto-flow: row;
-        grid-template-columns: repeat(2 ,1fr);
-    }
-    .card__bage-none {
-        padding-top: 48px;
-    }
 
 }
