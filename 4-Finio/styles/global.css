@@ -1,0 +1,26 @@
+:root{
+    --color-h2:#000000; 
+    --color-transparent:#4E5D7C80;
+    --color-bg-blue:#357EFE;
+    --shadow:0px 0px 32px 0px #4E5D7C52;
+    --radius-47:47px;
+    --radius-8: 8px;
+    --color-text:#4E5D7C;
+    --color-white:#FFFFFF;
+    --color-bg-bage: #1ABC9C;
+    --color-bg-money: #FFC736;
+
+
+
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    max-width: 1920px;
+    background-color: var(--color-white);
+    margin: 0;
+    padding: 0;
+    font-family: "Inter",sans-serif;
+}
+
