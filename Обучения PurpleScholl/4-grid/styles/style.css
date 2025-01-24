@@ -1,0 +1,66 @@
+:root {
+    --color-primary :#6C38CC;
+    --color-primary-hover :#4a1aa4;
+    --color-bg : #16171D;
+    --color-primary-second:#E47AD5;
+    --color-bg-lite: #1E1F29;
+    --color-bg-medium:#2E2D3D;
+    --color-text: #FAFAFA ;
+    --color-link-hover:#AFB2BF;
+    --color-strok: #4D5064;
+    --color-footer:#101114;
+    --border-8: 8px;
+    --border-10: 10px;
+    --border-5: 5px;
+    --layout-width : 1172px;
+    --gradient: linear-gradient(93.33deg, #D77BE6 9.26%, #BE63E6 42.32%, #6C38CC 104.58%);
+
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    -webkit-font-smoothing: antialiased ;
+    -moz-osx-font-smoothing: grayscale ;
+    text-rendering: optimizeLegibility;
+}
+body {
+    background-color: var(--color-bg);
+    margin: 30px;
+    padding: 0;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    }
+
+.item {
+    color: var(--color-text);
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid var(--color-primary);
+    padding: 15px;
+    text-align: center;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr); 
+    grid-template-rows: repeat(3 ,1fr);
+    grid-template-areas: 
+    "header header header header"
+    "sidebar content content content"
+    "footer  footer  footer footer"   ;
+    
+}
+.header {
+    grid-area: header;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.content {
+    grid-area: content;
+}
+.footer {
+    grid-area: footer;
+}
+
+
