@@ -1,6 +1,7 @@
 :root {
     --color-primary :#6C38CC;
     --color-primary-hover :#4a1aa4;
+    --color-primary-lite :#E47AD5;
     --color-bg : #16171D;
     --color-bg-lite: #1E1F29;
     --color-bg-medium:#2E2D3D;
@@ -9,6 +10,7 @@
     --color-strok: #4D5064;
     --border-8: 8px;
     --border-10: 10px;
+    --border-17: 17px;
     --layout-width : 1172px;
     --gradient: linear-gradient(93.33deg, #D77BE6 9.26%, #BE63E6 42.32%, #6C38CC 104.58%);
 
