@@ -2,13 +2,25 @@
     --color-h2: #000000;
     --color-transparent: #4E5D7C80;
     --color-bg-blue: #357EFE;
+    --color-bg-footer:#1A1D25;
     --shadow: 0px 0px 32px 0px #4E5D7C52;
+    --radius-34: 34px;
     --radius-47: 47px;
     --radius-8: 8px;
+    --radius-16: 16px;
     --color-text: #4E5D7C;
     --color-white: #FFFFFF;
     --color-bg-bage: #1ABC9C;
     --color-bg-money: #FFC736;
+    --color-white-80:  #FFFFFFCC;
+    --color-white-50: #FFFFFF80;
+    --color-white-70:#FFFFFFB2;
+    --color-white-8:#FFFFFF14;
+
+
+
+
+
 
 
 
@@ -24,4 +36,5 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    overflow-x: unset;
 }
