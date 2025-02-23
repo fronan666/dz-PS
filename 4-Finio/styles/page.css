@@ -444,7 +444,11 @@
     background-color: var(--color-bg-blue);
     color: var(--color-white);
     margin: 40px 0 0;
+    cursor: pointer;
     
+}
+.card__button:hover {
+    background-color: #0b2f6e;
 }
 
 .card__blue {
@@ -462,9 +466,12 @@
     color: #FFFFFF99;
 }
 
-.blue-bg__button {
+.blue-bg__button{
     background-color: var(--color-white);
     color: var(--color-bg-blue);
+}
+.blue-bg__button:hover {
+    background-color: var(--color-white-80);
 }
 
 .card__blue-h3 {
@@ -564,7 +571,7 @@
         border-top-right-radius: var(--radius-8);
         border-top-left-radius: var(--radius-8);
         padding: 0;
-        width: 585 px;
+        width: 585px;
         height: 472px;
     }
 
