@@ -1,0 +1,194 @@
+.h2-section__48 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    margin: 0 0 24px 0;
+    padding: 0;
+    color: var(--color-h2);
+}
+
+.finio-logo {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 50.4px;
+    color: var(--color-white);
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.paragrah__17 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    color: var(--color-transparent);
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+
+
+.button {
+    padding: 12px 32px;
+    border-radius: var(--radius-34);
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 23.8px;
+    border: none;
+    white-space: nowrap;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: var(--color-white-80);
+}
+
+.button__round {
+    background-color: var(--color-white);
+    border-radius: 100%;
+    padding: 10px 13px;
+    opacity: 60%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button__round:hover {
+    background-color: var(--color-white);
+    opacity: 100%;
+}
+
+@media (max-width:900px) {
+    .button__round {
+        display: none;
+    }
+
+}
+
+.margin__botton-button {
+    margin: 0 0 80px 0;
+}
+
+.p-section {
+    color: var(--color-transparent);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.p-section__80 {
+    color: var(--color-white-80);
+
+}
+
+.p-footer__70 {
+
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    color: var(--color-white-70);
+    padding: 0;
+    margin: 0;
+}
+
+.text__500 {
+    font-weight: 500;
+}
+
+.h2-section {
+    color: var(--color-h2);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+
+}
+
+.h2__32 {
+    font-size: 32px;
+    line-height: 38.4px;
+    margin: 24px 0;
+}
+
+.h3__28 {
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39.2px;
+    color: var(--color-white);
+    margin: 0;
+    padding: 0;
+
+}
+
+.h2__white {
+    font-size: 48px;
+    line-height: 57.6px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.h2__white_40px {
+    font-size: 40px;
+    line-height: 120%;
+    text-align: none;
+}
+
+@media (max-width:450px) {
+    .h2__white_40px {
+        text-align: start;
+        font-size: 36px;
+        line-height: 43.2px;
+    }
+}
+
+.h4-managment__footer {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: var(--color-white);
+
+
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.social__items {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.social__title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    cursor: pointer;
+    color: var(--color-white);
+    text-decoration: none;
+
+}
+.radioBox{
+
+}
