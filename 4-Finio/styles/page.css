@@ -531,12 +531,12 @@
     line-height: 23.8px;
     color: var(--color-white);
 }
-.reviews-checkbox {
+.reviews-radiobox {
     display: none;
 }
 
 @media (max-width:900px) {
-    .reviews-checkbox{
+    .reviews-radiobox{
         display:flex;
         margin: 48px auto ;
         
