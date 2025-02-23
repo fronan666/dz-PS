@@ -19,7 +19,7 @@
 <body>
     <header class="header">
         <div class="header__wrapper">
-            <div class="finio-logo">finio</div>
+            <a href="" class="finio-logo">finio</a>
             <nav>
                 <ul class="header__list">
                     <li class="header__list_item">
@@ -40,8 +40,9 @@
             <div class="header-menu__mobile"><img src="./images/menu.svg" alt=""></div>
         </div>
     </header>
-    <section class="hero">
-        <div class="hero__wrapper">
+    <main>
+    <article class="article-blue">
+        <div class="wrapper hero__wrapper">
             <div class="hero__right">
                 <h1 class="hero-h1">Простой финансовый учёт для продавцов на маркетплейсах</h1>
                 <button class="button blue-bg__button margin__botton-button">Попробовать 14 дней бесплатно</button>
@@ -68,7 +69,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </article>
+    <article class="article">
     <section class="section">
         <div class="section__title">
             <h2 class="h2-section">Предотвращайте кассовые разрывы </h2>
@@ -101,8 +103,9 @@
                 прибыльность бизнеса</p>
         </div>
     </section>
-    <section class="section__managment">
-        <div class="section-managment__wrapper">
+</article>
+    <article class="article-blue">
+        <div class="wrapper padding_120x0">
             <div class="section-managment__title">
                 <h2 class="h2__white h2-section">Экономьте время и нервы на учете</h2>
                 <p class="p-section p-section__80">Автоматическая синхронизация данных с маркетплейсов позволит вам
@@ -152,8 +155,9 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section__dignity">
+    </article>
+    <article class="wrapper">
+        <div class="section__dignity">
         <div class="card__dignity">
             <img src="./images/servers 1.svg" alt="сервер">
             <h2 class="h2-section h2__32">Надёжные сервера на территории России</h2>
@@ -170,20 +174,23 @@
             <h2 class="h2-section h2__32">Не передаём ваши данные 3-им лицам</h2>
             <p class="paragrah__17">Все данные о доходах и расходах компании видны только вам и тем, кому вы открыли
                 доступ</p>
+            </div>
         </div>
-    </section>
-    <section class="section__mobile">
+    </article>
+    <article class="article padding_120-80">
+        <div class="section__mobile">
         <h2 class="h2-section__48">Мобильная версия</h2>
         <p class="paragrah__17">Пользоваться всем функционалом сервиса удобно в любом месте и с любых устройств</p>
         <div class="section__mobile_cover">
             <img src="./images/Group 203.png" alt="Мобильная версия">
         </div>
-    </section>
-    <section class="section__help">
-        <div class="section__help_left">
+    </div>
+    </article>
+    <article class="article-blue article-custommer">
+        <div class="help-left">
             <img src="./images/iStock-1391364912 1.png" alt="человек показывающий сердце">
         </div>
-        <div class="section__help_right">
+        <div class="help-right">
             <h2 class="h2__white h2__white_40px">Подержка клиентов</h2>
             <p class="paragrah__17 p-section__80">Мы всегда готовы ответить на любые вопросы <br>в онлайн чате или по
                 телефону.</p>
@@ -204,21 +211,21 @@
             <p class="paragrah__17 p-section__80">Кроме того, мы готовы помочь вам с переносом данных из других сервисов
                 или Excel.</p>
         </div>
-    </section>
+    </article>
     <section class="section__tariffs">
         <div class="tariffs__header">
             <h2 class="h2-section__48">Тарифы</h2>
             <p class="paragrah__17">Все тарифы имеют полный функционал и отличаются только количеством месяцев и выгодой
             </p>
         </div>
-        <article class="tariffs__card">
+        <article class="article__card wrapper">
             <div class="card card__bage-none">
                 <h3 class="card__h3 ">1 месяц</h3>
                 <p class="paragrah__17">Тариф подойдёт тем, кто ведёт краткосрочные проекты</p>
                 <div class="card__item ">
                     <div class="item">
                         Общая стоимость
-                    </div>
+                    </div>  
                     <div class="item__money">
                         1 990 ₽
                     </div>
@@ -301,15 +308,15 @@
                         990 ₽/мес
                     </div>
                 </div>
-                <button class="card__button blue-bg__button">Бесплатно 14 дней</button>
+                <button class="button card__button blue-bg__button">Бесплатно 14 дней</button>
             </div>
             </div>
             </div>
     </section>
-    <section class="section__reviews">
+    <article class=" article__reviews wrapper">
         <h2 class="h2-section__48">Отзывы</h2>
         <div class="reviews-wrapper">
-            <div class="section__reviews_left">
+            <div class="reviews-left">
                 <div class="button__round "><img class="rotate__180" src="./images/chevron-circle-right-Bold.svg"
                         alt=""></div>
                 <div class="text__wrapper">
@@ -318,13 +325,22 @@
                         <div>Даня Валеева</div>
                         <div class="text__500">Продавец wilberies</div>
                     </div>
+                    <div class="reviews-radiobox">
+                        <input class="radioBox" name= "radio" type="radio" data-img="тут ссылка">
+                        <input class="radioBox" name= "radio" type="radio" data-img="тут ссылка">
+                        <input class="radioBox" name= "radio" type="radio" data-img="тут ссылка">
+                        <input class="radioBox" name= "radio" type="radio" data-img="тут ссылка">
+                        <input class="radioBox" name= "radio" type="radio" data-img="тут ссылка">
+                        <input class="radioBox" name= "radio" type="radio" data-img="тут ссылка">
+                    </div>
                 </div>
             </div>
-            <div class="section__reviews_right">
+            <div class="reviews-right">
                 <div class="button__round"><img src="./images/chevron-circle-right-Bold.svg" alt=""></div>
             </div>
         </div>
-    </section>
+    </article>
+</main>
     <footer class="footer">
         <div class="footer__wrapper">
             <div class="footer__top">
@@ -351,7 +367,7 @@
                         <div class="list__item_infomation">ОГРИП 322774600208776 </div>
                         <div class="list__item_infomation footer__list_item">Эл. почта: <a
                                 href="mailto:alarichev@gmail.com">alarichev@gmail.com</a></div>
-                        <a class="list__item_infomation" href="tel:+7 (910) 435-75-9">Тел.: +7 (910) 435-75-92</a>
+                        <a class="list__item_infomation" href="tel:+7 (910) 435-75-9">Тел: +7 (910) 435-75-92</a>
                         <div class="list__item_infomation">Москва, Вилиса Лациса 25 </div>
                     </ul>
                 </nav>
