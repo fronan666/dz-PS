@@ -37,5 +37,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    overflow-x: unset;
+    overflow-x: hidden;
+}
+main {
+    overflow: hidden;
 }

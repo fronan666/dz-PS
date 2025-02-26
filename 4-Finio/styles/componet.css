@@ -23,7 +23,10 @@
     line-height: 23.8px;
     color: var(--color-transparent);
     padding: 0;
-    margin: 0 0 40px 0;
+    margin: 0 0 40px 0 ;
+}
+.margin_0 {
+    margin: 0 ;
 }
 
 
@@ -67,6 +70,9 @@
 @media (max-width:900px) {
     .button__round {
         display: none;
+    }
+    .button {
+        padding: 12px 20px;
     }
 
 }
@@ -189,6 +195,19 @@
     text-decoration: none;
 
 }
-.radioBox{
-
+.circle {
+    background-color:var(--color-white-50);
+    padding: 4px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.circle:hover {
+    background-color: var(--color-white);
+}
+.circle:active {
+    background-color: var(--color-white);
+}
+.circle:focus {
+    background-color: var(--color-white);  
 }

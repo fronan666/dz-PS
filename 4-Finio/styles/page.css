@@ -380,6 +380,9 @@
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     padding: 48px 40px;
     box-shadow: var(--shadow);
     border-radius: var(--radius-8);
@@ -445,7 +448,6 @@
 
 .card__button {
     width: 100%;
-    padding: 12px 63px;
     align-items: center;
     border: none;
     font-size: 17px;
@@ -454,7 +456,6 @@
     border-radius: var(--radius-47);
     background-color: var(--color-bg-blue);
     color: var(--color-white);
-    margin: 40px 0 0;
     cursor: pointer;
     
 }
@@ -464,6 +465,7 @@
 
 .card__blue {
     background-color: var(--color-bg-blue);
+    gap: 25px;
 }
 
 .card__blue-item {
@@ -473,7 +475,6 @@
 }
 
 .card__blue-paragrah {
-    margin: 0 0 16px 0;
     color: #FFFFFF99;
 }
 
@@ -549,16 +550,12 @@
     line-height: 23.8px;
     color: var(--color-white);
 }
-.reviews-radiobox {
+.reviews-mobile {
     display: none;
 }
 
 @media (max-width:900px) {
-    .reviews-radiobox{
-        display:flex;
-        margin: 48px auto ;
-        
-    }
+    
     .article__card{
         grid-auto-flow: row;
         grid-template-columns: repeat(2, 1fr);
@@ -571,7 +568,7 @@
 
     .reviews-left {
         order: 1;
-        padding: 48px 24px 0px;
+        padding: 48px 24px ;
         border-bottom-right-radius: var(--radius-8);
         border-bottom-left-radius: var(--radius-8);
         border-top-left-radius: 0;
@@ -593,6 +590,12 @@
 }
 
 @media (max-width:800px) {
+    .reviews-mobile{
+        display:flex;
+        gap: 8px;
+        margin: 0 auto ;
+        
+    }
     .article__card {
         grid-auto-flow: row;
         grid-template-columns: repeat(1, 1fr);
@@ -612,7 +615,6 @@
 
 
 @media (max-width:439px) {
-
 
     .tariffs__header {
         font-size: 36px;
